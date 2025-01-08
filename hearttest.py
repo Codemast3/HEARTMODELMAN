@@ -48,7 +48,7 @@ def train_model():
         
         # Save the trained model using joblib
         joblib.dump(model, model_file_path)
-        st.success("Model saved successfully!")
+        #st.success("Model saved successfully!")
     else:
         st.error("Failed to train the model.")
 
