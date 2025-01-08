@@ -58,7 +58,7 @@ def load_model():
     if os.path.exists(model_file_path) and not is_trained:
         model = joblib.load(model_file_path)
         is_trained = True
-        st.success("Model loaded successfully!")
+       # st.success("Model loaded successfully!")
     elif not os.path.exists(model_file_path):
         st.error("Model not found. Please train the model first.")
 
